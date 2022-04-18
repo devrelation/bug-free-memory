@@ -1,5 +1,6 @@
 const merge = function (intervals) {
   const answer = [];
+
   const sorted = intervals.slice().sort((a, b) => a[0] - b[0]);
   let first = sorted[0][0];
   let last = sorted[0][1];
