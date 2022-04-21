@@ -6,12 +6,24 @@ import soowonSolution from './soowon.js';
 describe('problem!!', () => {
   const arr = [
     {
-      input: [1],
-      output: 1,
+      input: 'aba',
+      output: true,
     },
     {
-      input: [2],
-      output: 1,
+      input: 'aa',
+      output: true,
+    },
+    {
+      input: 'aaa',
+      output: true,
+    },
+    {
+      input: 'abca',
+      output: true,
+    },
+    {
+      input: 'abc',
+      output: false,
     },
   ];
 
