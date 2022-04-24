@@ -1,4 +1,4 @@
-const solution = function(s) {
+const solution = () => {
   let openCount = 0;
   let closeCount = 0;
     
