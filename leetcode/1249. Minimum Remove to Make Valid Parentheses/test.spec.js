@@ -1,6 +1,7 @@
 import jusungSolution from './jusung.js';
 import jiwooSolution from './jiwoo.js';
 import dowooSolution from './dowoo.js';
+
 import soowonSolution from './soowon.js';
 
 describe('problem!!', () => {
@@ -14,8 +15,16 @@ describe('problem!!', () => {
       output: ['ab(c)d'],
     },
     {
+      input: ')(ab)(',
+      output: ['(ab)'],
+    },
+    {
       input: '))((',
       output: [''],
+    },
+    {
+      input: '(a)))(ab)(((c)',
+      output: ['(a)(ab)(c)'],
     },
   ];
 
