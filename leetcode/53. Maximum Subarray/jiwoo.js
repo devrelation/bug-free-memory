@@ -1,22 +1,18 @@
 function solution(nums) {
-    
     const maxList = [];
     
     for(let x=0; x<nums.length; x++){
-        let maxValue = -100000;
-        let acc = 0;
-        
-        for(let y=x; y<nums.length; y++){
-            acc += nums[y];
-            
-            if(maxValue < acc){
-                maxValue = acc;
-            }
+        if(x === 0){
+            maxList.push(nums[x])
         }
-        
-        maxList.push(maxValue);
+        else{
+            const before = maxList[x-1];
+            const current = nums[x];
+                        
+            maxList.push(before + current > current ? before + current : current );
+        }
     }
-    
+        
     return Math.max(...maxList);
 };
 
