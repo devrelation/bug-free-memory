@@ -1,4 +1,9 @@
 # bug-free-memory
+### 2022-05-16
+[[Easy] 1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+
+[[Medium] 1644. Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)
+
 ### 2022-05-09
 [[Easy] 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
