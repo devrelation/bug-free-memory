@@ -1,4 +1,4 @@
-const solution = () => {
+const solution = (num) => {
   const answer = [];
 
   nums.forEach((num) => {
