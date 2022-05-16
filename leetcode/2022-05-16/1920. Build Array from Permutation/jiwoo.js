@@ -1,5 +1,11 @@
 const solution = () => {
-  return 1;
+  const answer = [];
+
+  nums.forEach((num) => {
+    answer.push(nums[num])
+  })
+
+  return answer;
 };
 
 export default solution;
