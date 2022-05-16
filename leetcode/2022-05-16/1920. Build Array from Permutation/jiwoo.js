@@ -1,9 +1,9 @@
-const solution = (num) => {
+const solution = (nums) => {
   const answer = [];
 
   nums.forEach((num) => {
-    answer.push(nums[num])
-  })
+    answer.push(nums[num]);
+  });
 
   return answer;
 };
