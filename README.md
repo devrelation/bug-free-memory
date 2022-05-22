@@ -1,4 +1,11 @@
 # bug-free-memory
+
+### 2022-05-23 
+[[Medium] 560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+
+[[Medium] 1513. Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)
+
+
 ### 2022-05-16
 [[Easy] 1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 
