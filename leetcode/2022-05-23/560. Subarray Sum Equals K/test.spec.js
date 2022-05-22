@@ -6,11 +6,11 @@ import soowonSolution from './soowon.js';
 describe('problem!!', () => {
   const arr = [
     {
-      input: [[1,1,1],2],
+      input: { nums: [1, 1, 1], k: 2 },
       output: 2,
     },
     {
-      input: [[1,2,3],3],
+      input: { nums: [1, 2, 3], k: 3 },
       output: 2,
     },
   ];
